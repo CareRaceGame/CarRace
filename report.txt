@@ -1,0 +1,96 @@
+﻿CHAT AND CHASE           REPORT FILE
+Introduction
+Welcome to the “ASSETTO CORSA”, a thrilling desktop game developed using the powerful Swing graphics library! The game's primary objective is to control your car and navigate through randomly generated obstacles to emerge victorious. 
+
+
+But we didn't stop there! We have taken the excitement up a notch by implementing a 1 to 1 chatting feature in the lobby. Chatting with your opponents while racing adds an extra level of fun and engagement to the game.
+
+
+Our team's main focus was to create a simple yet interactive chatting application that seamlessly integrates with the game. The chatting feature allows players to communicate with each other in real-time, enhancing the gaming experience and fostering a sense of community among players.
+
+
+So gear up, rev your engines, and get ready to race to the finish line while chatting with your fellow racers in our Car Racing Game!
+
+
+Features
+●       Randomly generated obstacles: The game generates obstacles randomly to keep the gameplay challenging and exciting.
+●       Collision detection: The game ends when the car collides with an obstacle and reaches beyond the starting point.
+●       Sound effects: The game features sound effects to enhance the gaming experience.
+●       User can see the online status of the other user.
+●       User can send text messages .
+
+
+Technologies used
+This project requires Java 8 or higher and the following libraries:
+- `javax.swing`
+- `java.awt`
+- `java.util`
+- `java.text`
+- `java.net`
+- `java.io`
+The technology used in the project is Java. It uses Java's built-in Swing library for creating the user interface and graphics, and the javax.sound.sampled library for playing audio files. It also uses standard Java libraries for file handling, key and action event handling,java networking and multi-threading.
+
+
+
+
+
+
+Design
+  
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+Implementation
+The Car Racing Game was developed using Java and the Swing graphics library. The game uses a timer to generate obstacles at random intervals. The car's movement is controlled using the arrow keys, and collision detection is implemented using the Java's built-in rectangle intersection method.
+Java code for a registration form allows users to input their name, mobile number, gender, date of birth, and email address. It also includes a checkbox for the terms and conditions, and a submit button to send the information.
+The form uses swing components and is displayed using the JFrame class. It includes labels for each input field, text fields for the name, mobile number, and email address, radio buttons for the gender, combo boxes for the date of birth, a checkbox for the terms and conditions, and buttons for submitting and playing the game.
+The chat interface has a GUI that consists of a JFrame with several components, including a JPanel for displaying chat messages, a JTextField for inputting messages, and two JButtons, one for sending messages and the other for initiating a game.
+The program uses the ActionListener interface to handle user input. When the "PLAY" button is clicked, it calls a method in another class called Test. When the "Send" button is clicked, the ActionListener reads the text in the JTextField, creates a JLabel with the text, and adds it to the chat JPanel. The text is also sent to the server via a DataOutputStream.
+The program uses several Swing components to create the GUI, including JButton, JLabel, JPanel, and JTextField. The program also uses several layout managers to position the components on the JFrame, including BorderLayout, BoxLayout, and null layout.
+Gameplay
+To run the game, execute the main method of the SignUp classand click on “Let’s Play” or execute either Server or Client class’s main method and click on “PLAY” button. The game window will appear, and the music will start playing. Use the arrow keys on your keyboard to control the car's movement. The game ends when the car collides with another car and reaches beyond the starting point.
+To enhance your auditory immersion and elevate your overall music and gaming experience, We highly recommend using a pair of high-quality headphones while playing the game.
+Future Analysis
+Chat server can be further developed to add more features, such as user authentication,
+message encryption, and file sharing. We can add new features such as power-ups, different levels, and multiplayer modes.
+It's difficult to predict the exact scope of a project in the future, as it can depend on various factors such as technology advancements, market trends, user preferences, and competition. With the growing popularity of mobile gaming, it's possible that this game could be further developed and optimized for mobile platforms to reach a wider audience.
+
+
+In addition, the game could be expanded with new features such as different game modes, more cars, and tracks to keep the gameplay fresh and engaging for players. The game could also be improved with better graphics and sound effects, as technology continues to improve.
+Conclusion
+The Car Racing Game is a fun and challenging desktop game developed using Java. The game features randomly generated obstacles, collision detection, and sound effects. The game's implementation uses Java and the Swing graphics library, and the gameplay is simple and easy to understand. Overall, Chat and chase is an enjoyable application that provides hours of entertainment.
+
+
+Links 
+Github link: https://github.com/CareRaceGame/ChatAndChase
+Link to the video : :https://www.awesomescreenshot.com/video/16749192?key=5b1fd65a8967e8760e47b5d818d823f0  
+
+
+
+
+Contributors
+Aarushi Agarwal and Khushbu have made contributions to the development of the car racing game with sound effects and signup form. Meanwhile, Amit and Bhuvan have implemented a server-client model to create an impressive chat feature using networking.
+
+
+Aarushi Agarwal - 21124001
+Khushbu -21124052
+Bhuvan Kaushal-21124024
+Amit -21124010
